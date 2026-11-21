@@ -1,0 +1,20 @@
+{
+    "model": "PointNet",
+    "actual_epochs": 700,
+    "maximum_epochs": 3000,
+    "early_stopping_triggered": true,
+    "early_stopping_metric": "train_accuracy",
+    "early_stopping_threshold": 0.995,
+    "checkpoint_interval": 50,
+    "early_stopping_patience": 3,
+    "best_validation_accuracy": 0.945,
+    "best_validation_epoch": 171,
+    "best_train_accuracy": 0.9988333333333334,
+    "best_train_epoch": 686,
+    "final_train_accuracy": 0.9973333333333333,
+    "final_validation_accuracy": 0.9208333333333333,
+    "training_time_seconds": 652.0728398420001,
+    "seconds_per_epoch": 0.9315326283457145,
+    "peak_gpu_memory_mb": 795.0322265625,
+    "parameter_count": 341004
+}
